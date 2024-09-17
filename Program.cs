@@ -1,9 +1,7 @@
-﻿using System.Runtime.InteropServices;
-
-class Program
+﻿class Program
 {
 
-    static void Main(string[] args)
+    static void Main()
     {
         Menu();
     }
@@ -11,7 +9,7 @@ class Program
     {
         Console.Clear();
 
-        Console.WriteLine("Olá, Me chamo CALCULADORA e estou aqui para lhe ajudar!!!");
+        Console.WriteLine("Olá, Me chamo CALCULADORA! E estou aqui para lhe ajudar!!!");
         Console.WriteLine("[ 1 ] Somar");
         Console.WriteLine("[ 2 ] Subtrair");
         Console.WriteLine("[ 3 ] Multiplicar");
@@ -38,6 +36,11 @@ class Program
 
         Console.Clear();
 
+        Console.WriteLine("-----------");
+        Console.WriteLine("Somando...");
+        Console.WriteLine("-----------");
+        Console.WriteLine("");
+    
         Console.WriteLine("Digite o primeiro número: ");
         double num1  = Convert.ToDouble(Console.ReadLine());
 
@@ -56,6 +59,11 @@ class Program
     {
         Console.Clear();
 
+        Console.WriteLine("--------------");
+        Console.WriteLine("Subtraindo...");
+        Console.WriteLine("--------------");
+        Console.WriteLine("");
+
         Console.WriteLine("Digite o primeiro número: ");
         double num1 = Convert.ToDouble(Console.ReadLine());
 
@@ -73,6 +81,11 @@ class Program
     static void Multiplicacao()
     {
         Console.Clear();
+
+        Console.WriteLine("-----------------");
+        Console.WriteLine("Multiplicando...");
+        Console.WriteLine("-----------------");
+        Console.WriteLine("");
 
         Console.WriteLine("Digite o primeiro número: ");
         double num1 = Convert.ToDouble(Console.ReadLine());
@@ -94,6 +107,10 @@ class Program
 
     Console.Clear();
 
+    Console.WriteLine("-------------");
+    Console.WriteLine("Dividindo...");
+    Console.WriteLine("-------------");
+    Console.WriteLine("");
 
     Console.WriteLine("Digite o primeiro número: ");
     double num1 = Convert.ToDouble(Console.ReadLine());
@@ -101,9 +118,15 @@ class Program
     Console.WriteLine("Digite o segundo número: ");
     double num2 = Convert.ToDouble(Console.ReadLine());
 
-    double divisao = num1 / num2;
+    if(num2 != 0){
+        double divisao = num1 / num2;
 
-    Console.WriteLine($"A Divisão dos números {num1} e {num2} é: {divisao}");
+        Console.WriteLine($"A Divisão dos números {num1} e {num2} é: {divisao}");
+    }
+    else
+    {
+        Console.WriteLine("Não é possível dividir por zero");
+    }
 
     Console.ReadKey();
     Menu();

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ulbra\\Laboratorio de Programação\\Calculadora\\Calculadora.csproj",
+      "projectUniqueName": "D:\\Ulbra\\Laboratorio de Programação\\Calculadora.CSharp\\Calculadora.csproj",
       "projectName": "Calculadora",
-      "projectPath": "D:\\Ulbra\\Laboratorio de Programação\\Calculadora\\Calculadora.csproj",
+      "projectPath": "D:\\Ulbra\\Laboratorio de Programação\\Calculadora.CSharp\\Calculadora.csproj",
       "packagesPath": "C:\\Users\\hasla\\.nuget\\packages\\",
-      "outputPath": "D:\\Ulbra\\Laboratorio de Programação\\Calculadora\\obj\\",
+      "outputPath": "D:\\Ulbra\\Laboratorio de Programação\\Calculadora.CSharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hasla\\AppData\\Roaming\\NuGet\\NuGet.Config"
