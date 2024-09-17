@@ -21,7 +21,7 @@
 
         int selecao = Convert.ToInt32(Console.ReadLine());
 
-        switch(selecao)
+        switch (selecao)
         {
             case 1: Soma(); break;
             case 2: Subtracao(); break;
@@ -40,20 +40,20 @@
         Console.WriteLine("Somando...");
         Console.WriteLine("-----------");
         Console.WriteLine("");
-    
+
         Console.WriteLine("Digite o primeiro número: ");
-        double num1  = Convert.ToDouble(Console.ReadLine());
+        double num1 = Convert.ToDouble(Console.ReadLine());
 
         Console.WriteLine("Digite o Segundo número: ");
         double num2 = Convert.ToDouble(Console.ReadLine());
 
         double soma = num1 + num2;
-        
+
         Console.WriteLine($"A soma dos números {num1} e {num2} é: {soma}");
 
         Console.ReadKey();
         Menu();
-        
+
     }
     static void Subtracao()
     {
@@ -105,31 +105,32 @@
 
     {
 
-    Console.Clear();
+        Console.Clear();
 
-    Console.WriteLine("-------------");
-    Console.WriteLine("Dividindo...");
-    Console.WriteLine("-------------");
-    Console.WriteLine("");
+        Console.WriteLine("-------------");
+        Console.WriteLine("Dividindo...");
+        Console.WriteLine("-------------");
+        Console.WriteLine("");
 
-    Console.WriteLine("Digite o primeiro número: ");
-    double num1 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Digite o primeiro número: ");
+        double num1 = Convert.ToDouble(Console.ReadLine());
 
-    Console.WriteLine("Digite o segundo número: ");
-    double num2 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Digite o segundo número: ");
+        double num2 = Convert.ToDouble(Console.ReadLine());
 
-    if(num2 != 0){
-        double divisao = num1 / num2;
+        if (num2 != 0)
+        {
+            double divisao = num1 / num2;
 
-        Console.WriteLine($"A Divisão dos números {num1} e {num2} é: {divisao}");
-    }
-    else
-    {
-        Console.WriteLine("Não é possível dividir por zero");
-    }
+            Console.WriteLine($"A Divisão dos números {num1} e {num2} é: {divisao}");
+        }
+        else
+        {
+            Console.WriteLine("Não é possível dividir por zero");
+        }
 
-    Console.ReadKey();
-    Menu();
+        Console.ReadKey();
+        Menu();
 
     }
 
